@@ -1,0 +1,48 @@
+npm ERR! code 1
+npm ERR! path /home/orangepi/gitlab/mik-printer/node_modules/@thiagoelg/node-printer
+npm ERR! command failed
+npm ERR! command sh -c -- prebuild-install || node-gyp rebuild
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.1.0
+npm ERR! gyp info using node@18.12.1 | linux | arm64
+npm ERR! gyp info find Python using Python version 3.10.6 found at "/usr/bin/python3"
+npm ERR! gyp info spawn /usr/bin/python3
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   '/home/orangepi/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! gyp info spawn args   '-f',
+npm ERR! gyp info spawn args   'make',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/home/orangepi/gitlab/mik-printer/node_modules/@thiagoelg/node-printer/build/config.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/home/orangepi/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/home/orangepi/.cache/node-gyp/18.12.1/include/node/common.gypi',
+npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! gyp info spawn args   '-Dnode_root_dir=/home/orangepi/.cache/node-gyp/18.12.1',
+npm ERR! gyp info spawn args   '-Dnode_gyp_dir=/home/orangepi/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/node-gyp',
+npm ERR! gyp info spawn args   '-Dnode_lib_file=/home/orangepi/.cache/node-gyp/18.12.1/<(target_arch)/node.lib',
+npm ERR! gyp info spawn args   '-Dmodule_root_dir=/home/orangepi/gitlab/mik-printer/node_modules/@thiagoelg/node-printer',
+npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! gyp info spawn args   'build',
+npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! gyp info spawn args ]
+npm ERR! gyp: [Errno 2] No such file or directory: 'python' while executing command '['python', 'tools/getSourceFiles.py', 'src', 'cc']' in binding.gyp while trying to load binding.gyp
+npm ERR! gyp ERR! configure error 
+npm ERR! gyp ERR! stack Error: `gyp` failed with exit code: 1
+npm ERR! gyp ERR! stack     at ChildProcess.onCpExit (/home/orangepi/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:284:16)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:513:28)
+npm ERR! gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+npm ERR! gyp ERR! System Linux 5.17.12-rk3399
+npm ERR! gyp ERR! command "/home/orangepi/.nvm/versions/node/v18.12.1/bin/node" "/home/orangepi/.nvm/versions/node/v18.12.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+npm ERR! gyp ERR! cwd /home/orangepi/gitlab/mik-printer/node_modules/@thiagoelg/node-printer
+npm ERR! gyp ERR! node -v v18.12.1
+npm ERR! gyp ERR! node-gyp -v v9.1.0
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/orangepi/.npm/_logs/2022-12-22T16_30_15_432Z-debug-0.log
