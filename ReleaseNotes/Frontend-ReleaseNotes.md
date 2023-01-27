@@ -1,13 +1,16 @@
-# Release Notes
-## Current Version: `v2.1.1`
+# Frontend ChangeLog `[27/01/2023]`
 
-### Added:
-  [`v2.1.1`]
-     
+## Current Version 
+  - frontend: [`v2.1.1`] 
+  - backend: [`v2.1.0`]
+
+### Added: 
   [`v2.1.0`]
+  
   - Add scroll to charts (backoffice/dashboard)   
 
   [`v2.0.0`]
+  
   - Added color option (dispenser/navigation-buttons) 
   - Added fontWeight options (dispenser/header) 
   - Added `totalDays` configuration (weather widget)
@@ -21,9 +24,11 @@
 ### Fixes:
   
   [`v2.1.1`]
+
   - Access times are now represented in a 3x3 grid `via-guide` 🚀​
       
   [`v2.1.0`]
+  
   - Changes to match design (charts) 📊
   - Fixes (charts) 📊
   - Layout and translation fixes (charts) 📊
@@ -34,7 +39,7 @@
   - Updated dashboard title translation (backoffice/dashboard)
   - Fixed spotlight icons (backoffice/dashboard)
   - Hide statistics & old dashboard (metabase) for [ISE 2023](https://ise2023.moviik.in) (internal)
-  
+
   [`v2.0.0`]
   - Use moment() in current time `via-guide` ​🚀​
   - Fix departure time on booking details `via-guide` 🚀​

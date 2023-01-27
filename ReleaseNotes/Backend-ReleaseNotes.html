@@ -1,50 +1,47 @@
-<pre>* <font color="#C01C28">c4fc947c</font> -<font color="#A2734C"> (HEAD -&gt; master, origin/master, origin/HEAD)</font> fix: return rabbitmq subscriber close function 
-    <font color="#26A269">(17 hours ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">57cba63f</font> - via-guide: add slot end time in notification email <font color="#26A269">(17 hours ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">0df19865</font> - charts: remove chart with old naming <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">7d9c8d57</font> - charts: added tickets-stats-by-branch chart <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">64939688</font> - charts: fixed influx by service profile <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">1b8c8b7c</font> - charts: add tickets stats by service profile chart <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">8c97a05f</font> - charts: fixed influx by branch <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">bedf6201</font> - charts: added charts and support for settings <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">1b4a37de</font> - charts: add setup to dashboards <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">1ed79d34</font> - charts: get dashboard by id <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">5e142385</font> - charts: add table devices as chart <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">15620eb7</font> - charts: add count tickets by terminal chart <font color="#26A269">(20 hours ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">7305a9a8</font> - runner: add ise call tickets <font color="#26A269">(6 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">d64f83cf</font> - worker: remove notifications command <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">40af6934</font> - refactor: use notification controller in ticket action dispatcher <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">a2ce53a9</font> - commands: drop alerts <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">28c06aab</font> - worker: remove asset processor command <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">423a2f59</font> - worker: drop kpi incidents <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">6f3c4b2f</font> - feat: use `moviik.com` domain in mail from address <font color="#26A269">(7 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">74a7420d</font> - api: generate just 5 video frames <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">555a7123</font> - api: fill artifacts url in asset/video job <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">9e14a8ce</font> - api: use space.settings.s3 in putobject <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">08a53c5b</font> - api: use space.settings.s3 in fgetobject <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">e2d86765</font> - api: use space.settings.s3 in fputobject <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">56f8f23c</font> - refactor: pass space to convert video <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">e0aa2b6c</font> - api: add API_SESSION_SECURE <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">1a6001a3</font> - viaguide: fill tzl details <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;João Barbosa&gt;</b></font>
-    * <font color="#C01C28">2ecd299a</font> - via-guide: use subject based on ticket lang <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">5fadde8e</font> - via-guide: format slot date based on ticket lang <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">292b27a1</font> - via-guide: update template messages <font color="#26A269">(8 days ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">1c9396a6</font> - tests: skip old dashboard test <font color="#26A269">(12 days ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">166e7c5b</font> - api: add manager, model &amp; interface for dashboard <font color="#26A269">(12 days ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">cc3d34aa</font> - db: add dashboards table <font color="#26A269">(12 days ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">2510e5c1</font> - viaguide: fix typo in email <font color="#26A269">(2 weeks ago) </font><font color="#12488B"><b>&lt;Joel Azevedo&gt;</b></font>
-    * <font color="#C01C28">3ac87bb2</font> - charts: remove return from query <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">9b431856</font> - charts: add influx tickets by branch chart <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">a599caca</font> - charts: add count tickets by branch chart <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">ee404601</font> - chart: add influx tickets by service profile chart <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">0c9c2e71</font> - runner: fix runner query nulls <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">22122ed8</font> - charts: rename chart query count to cnt <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;cgoncalves&gt;</b></font>
-    * <font color="#C01C28">dd91cd47</font> - runner: add retry failed jobs strategy <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">97e8ebb9</font> - feat: add next_run and attempts to job schema <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">6c1b2b12</font> - db: add attempts field to jobs <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">fe350666</font> - feat: add searchable fields to job model <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">b41810cc</font> - api: add job routes <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">0cc89dfa</font> - feat: update job statuses <font color="#26A269">(3 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">072c6e62</font> - runner: add kpi_visitors_quantity <font color="#26A269">(5 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-    * <font color="#C01C28">b3ae7f68</font> - runner: kpi_ticket_waiting_time <font color="#26A269">(5 weeks ago) </font><font color="#12488B"><b>&lt;Vinícius Silva&gt;</b></font>
-</pre>
+<body style="background-color:#000; color:gainsboro">
+<pre>
+    * <font color="#FF5252">2b518bed</font> -<font color="#FFC135"> (HEAD -&gt; master, origin/master, origin/HEAD)</font> charts: add chart type to dashboard item for readability <font color="#C3D82C">(2 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">7b7e31dc</font> - charts: charts setup default settings <font color="#C3D82C">(2 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">c4fc947c</font> - fix: return rabbitmq subscriber close function <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">57cba63f</font> - via-guide: add slot end time in notification email <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">0df19865</font> - charts: remove chart with old naming <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">7d9c8d57</font> - charts: added tickets-stats-by-branch chart <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">64939688</font> - charts: fixed influx by service profile <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">1b8c8b7c</font> - charts: add tickets stats by service profile chart <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">8c97a05f</font> - charts: fixed influx by branch <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">bedf6201</font> - charts: added charts and support for settings <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">1b4a37de</font> - charts: add setup to dashboards <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">1ed79d34</font> - charts: get dashboard by id <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">5e142385</font> - charts: add table devices as chart <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">15620eb7</font> - charts: add count tickets by terminal chart <font color="#C3D82C">(3 days ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">7305a9a8</font> - runner: add ise call tickets <font color="#C3D82C">(8 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">d64f83cf</font> - worker: remove notifications command <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">40af6934</font> - refactor: use notification controller in ticket action dispatcher <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">a2ce53a9</font> - commands: drop alerts <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">28c06aab</font> - worker: remove asset processor command <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">423a2f59</font> - worker: drop kpi incidents <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">6f3c4b2f</font> - feat: use `moviik.com` domain in mail from address <font color="#C3D82C">(9 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">74a7420d</font> - api: generate just 5 video frames <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">555a7123</font> - api: fill artifacts url in asset/video job <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">9e14a8ce</font> - api: use space.settings.s3 in putobject <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">08a53c5b</font> - api: use space.settings.s3 in fgetobject <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">e2d86765</font> - api: use space.settings.s3 in fputobject <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">56f8f23c</font> - refactor: pass space to convert video <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">e0aa2b6c</font> - api: add API_SESSION_SECURE <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">1a6001a3</font> - viaguide: fill tzl details <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;João Barbosa&gt;</b></font>
+    * <font color="#FF5252">2ecd299a</font> - via-guide: use subject based on ticket lang <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">5fadde8e</font> - via-guide: format slot date based on ticket lang <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">292b27a1</font> - via-guide: update template messages <font color="#C3D82C">(10 days ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    * <font color="#FF5252">1c9396a6</font> - tests: skip old dashboard test <font color="#C3D82C">(2 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">166e7c5b</font> - api: add manager, model &amp; interface for dashboard <font color="#C3D82C">(2 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">cc3d34aa</font> - db: add dashboards table <font color="#C3D82C">(2 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">2510e5c1</font> - viaguide: fix typo in email <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;Joel Azevedo&gt;</b></font>
+    * <font color="#FF5252">3ac87bb2</font> - charts: remove return from query <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">9b431856</font> - charts: add influx tickets by branch chart <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">a599caca</font> - charts: add count tickets by branch chart <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">ee404601</font> - chart: add influx tickets by service profile chart <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">0c9c2e71</font> - runner: fix runner query nulls <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">22122ed8</font> - charts: rename chart query count to cnt <font color="#C3D82C">(3 weeks ago) </font><font color="#42A5F5"><b>&lt;cgoncalves&gt;</b></font>
+    * <font color="#FF5252">dd91cd47</font> - runner: add retry failed jobs strategy <font color="#C3D82C">(4 weeks ago) </font><font color="#42A5F5"><b>&lt;Vinícius Silva&gt;</b></font>
+    </pre>
+</body>
